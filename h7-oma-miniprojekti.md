@@ -1,7 +1,7 @@
 # h7 - Oma miniprojekti
 ### Noora Kervinen, 2024
 
-Miniprojektini tavoitteena on ..
+Miniprojektini tavoitteena on luoda vietuaalikoneympäristö herra-orja-arkkitehtuurilla. 
 
 ## References
 
