@@ -108,6 +108,11 @@ Tätä osaa projektista en osannut tehdä masterilta käsin. Joten siirryin toim
 
 Annoin skriptitiedostolle suoritusoikeudet komennolla ```sudo chmod +x ajastin```, jonka jälkeen ajoin skriptitiedoston komennolla ```. ajastin```. Skrpti kuintenkin ajoi epäilyttävän pitkään joten muutaman minuutin odottelun jälkeen lopetin ajastamisen painamalla CTRL+C. Kirjauduin pois orjakoneelta ja kirjauduin takaisin sisään. Lopputuloksena oli se, että kellonaika oli tervehdyksessä se, jonka aikaan ajoin komennon ```. ajastin```. Kuitenkin viesti ei toimi minuutin tarkkuudella ja täytyy keksiä uusi tapa saada tämä toimimaan.
 
+Tässä kohtaa oma tietämykseni päättyy. En valitettavasti keksi muita vaihtoehtoja skriptin ajastamiseksi. Tietenkin olisi myös esimerkiksi cron jobs, joita tutkiskelin, mutta tuli siihen tulokseen, ettei se toimisi ratkaisukseni.  On surullista jättää loppuprojektini tähän, mutta oma osaamistasoni tulee vastaan. Kurssi oli mielestäni tosi palkitseva ja opettavainen ja vaikka projektini lopputulos ei ole haluamani. Lähden kurssilta paljon viisaampana ja kokeneempana kuin tänne tullessa.
+
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/bcfc7f62-2add-4d6e-8648-f9e44cdb0947)
+
+
 ## References
 
 Karvinen, T. 2024. h7 - oma miniprojekti. https://terokarvinen.com/2024/configuration-management-2024-spring/#h7-oma-miniprojekti
