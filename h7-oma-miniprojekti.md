@@ -1,7 +1,7 @@
 # h7 - Oma miniprojekti
 #### Noora Kervinen, 2024
 
-Miniprojektini tavoitteena on luoda Linux virtuaalikoneympäristö herra-orja-arkkitehtuurilla. Luoda masterkoneella skripti, joka asentaa orjalle Cowsayn. Tämän jälkeen luoda toinen skripti, joka asettaa Cowsay ilmoituksen orjakoneen MOTD-osioon, jossa kerrotaan kellonaika ja päivämäärä. *MOTD* eli Message of The Day on ensimmäinen asia, jonka käyttäjä näkee kirjautuessaan koneelle. Projekti on julkaistu GNU General Public License, versio 3 oikeuksien alla.
+Miniprojektini tavoitteena on luoda Linux virtuaalikoneympäristö herra-orja-arkkitehtuurilla. Luoda masterkoneella skripti, joka asentaa orjalle Cowsayn. Tämän jälkeen luoda toinen skripti, joka asettaa Cowsay ilmoituksen orjakoneen MOTD-osioon, jossa kerrotaan kellonaika ja päivämäärä. *MOTD* eli Message of The Day on ensimmäinen asia, jonka käyttäjä näkee kirjautuessaan koneelle. Projektin ideana on, että kirjautuesaan koneelle käyttäjä tietää tarkan kellonajan ja päivän, hyödyllistä informaatiota käyttäjälle. Projekti on julkaistu GNU General Public License, versio 3 oikeuksien alla.
 
 ## Virtuaalikoneympäristön luonti
 
