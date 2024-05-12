@@ -100,7 +100,9 @@ Viesti kellonajan ja päivän kera ilmestyi MOTD-osioon. Mutta projektin aikana 
 
 ## Skriptin ajastaminen 
 
-jee lisää tekemistä!
+jee lisää tekemistä! Loin tollasen ajastamis skriptin: Let's testataan
+
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/8127aae1-dc96-4d15-95a2-8d958891a16d)
 
 ## References
 
