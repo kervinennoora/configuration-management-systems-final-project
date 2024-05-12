@@ -1,0 +1,4 @@
+/usr/local/bin/asennus:
+  file.managed:
+  - source: salt://motd/motd
+  - mode: "0755"
