@@ -130,3 +130,5 @@ Kervinen, N. 2024. h2 - Soitto kotiin. https://github.com/kervinennoora/configur
 Kervinen, N. 2024. h5 - Tekniikoita. https://github.com/kervinennoora/configuration-management-systems/blob/main/h5-tekniikoita.md
 
 Chadwick, R. 2024. Loops - Bash Scripting Tutorial. https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php
+
+amcgregor. 2023. A convinient motd-creation script for Gentoo servers. https://gist.github.com/amcgregor/1522110/e01dbcfcf30d732b2e8a0a752ef09abf9a7e9b27
