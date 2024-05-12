@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+# Kellonaika ja päivämäärä
+aika=$(date +"%T")
+paiva=$(date +"%A, %-d. %B %Y")
+
+# Cowsay viesti
+viesti="Tervetuloa koneelle! Kellonaika on $aika ja päivämäärä $paiva."
+
+# Generoi Cowsay viesti
+cowsay "$viesti" > /tmp/motd.tmp
+
+# Tallenna viesti MOTD tiedostoon
+sudo mv /tmp/motd.tmp /etc/mot
