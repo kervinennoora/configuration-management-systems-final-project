@@ -70,6 +70,11 @@ Tämän jälkeen oli aika ajaa skripti. Tämäkin jännitti. Ajoin komennon ```s
 
 ## Viesti MOTD-osioon
 
+Aloitin tämän osuuden projektista palaamalla takaisin kansioon ```/usr/local/bin/``` ja loin sinne uuden skriptitiedoston *motd.sh* Tämä skriptitiedosto sisältää määritelmät parametreille *aika* ja *paiva*. Nämä määrittävät viestin sisällön tärkeimmän osuuden, sillä se sisältää informaation. Tämän lisäksi skripti sisältää viestin, joka kerrotaan käyttäjälle tämän kirjautuessa koneelle. Lisäksi skripti generoi cowsay viestin sijaintiin ```tmp/motd.tmp```. Lopuksi skripti tallentaa viestin motd-tiedostoon. Skriptitiedoston *motd.sh* löytää reposition kansiosta *Additional-material*. 
+
+Skriptitiedosto *motd.sh* näytti tältä:
+
+![lopputyo9](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/aee90a15-f9ea-4256-931b-1305980f621f)
 
 ## References
 
