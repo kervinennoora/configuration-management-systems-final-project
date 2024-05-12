@@ -60,7 +60,7 @@ Tämän jälkeen kopion skripti-tiedoston sisällön ja siirsin ne tiedostoon *a
 
 ![lopputyo7 5](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/87a6038b-6c05-42d0-be4c-8dab47d0ce66)
 
-Tämän jälkeen oli aika testata skriptintoimivuutta. Olin jännän äärellä kun ajoin komennon ```sudo salt salt '*' state.apply asennus```. Onneksi kaikki menikin hyvin ja kaikki tarvittavat tiedostot skirptin ajamista varten olivat asentuneet orja-koneella. Ajoin komennon kahdesti saavuttaakseni idempotentin tilan. 
+Tämän jälkeen oli aika testata skriptintoimivuutta. Olin jännän äärellä kun ajoin komennon ```sudo salt '*' state.apply asennus```. Onneksi kaikki menikin hyvin ja kaikki tarvittavat tiedostot skirptin ajamista varten olivat asentuneet orja-koneella. Ajoin komennon kahdesti saavuttaakseni idempotentin tilan. 
 
 ![lopputyo8](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/cf245622-153c-42db-a9a8-b8a34374e74b)
 
@@ -74,7 +74,33 @@ Aloitin tämän osuuden projektista palaamalla takaisin kansioon ```/usr/local/b
 
 Skriptitiedosto *motd.sh* näytti tältä:
 
-![lopputyo9](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/aee90a15-f9ea-4256-931b-1305980f621f)
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/cba2abb4-ba64-4d93-944a-2fbd3dbe814f)
+
+Kun skriptitiedosto on luotu on aika siirtyä sen koipiointiin salt kansiossa. Siirryin hakemistoon ```/srv/salt``` ja loin sinne uuden hakemiston ```motd```. Siirryin uuteen kansiooni ja kopioin sinne *motd.sh* skriptitiedoston käyttäen komentoa ```sudo cp /urs/local/bin/motd.sh /srv/salt/motd```. Tämän jälkeen kopioin *motd.sh* tiedodston sisällön ja loin uuden tiedoston *motd* käyttäen komentoa ```sudoedit motd```. *Motd* tiedostoon kopioin *motd.sh* sisällön samaan tapaan kuin *asennus.sh* tiedoston parissa. Lopuksi oli aika luoda *init.sls* tiedosto, joka sisällön löytää reposition *Additional-material* kansiosta.
+
+*Init.sls* tiedoston sisältö näytti tältä:
+
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/e68e08d0-45ef-481c-a337-ca18ace7af68)
+
+Tässä kohtaa myös muistin, etten muokannut skriptitiedoston oikeuksia. Joten ajoin nopeasti komennon ```sudo chmod +x motd.sh```. Tämän jälkeen oli aika kokeilla skriptin ajoa orjakoneella. Minua jännitti todella paljon toimiiko skripti ja sen testaaminen oli hyvin jänskää. Ajoin kuitenkin rohkeasti komennon ```sudo salt '*' state.apply motd```. Jee! Komento toimi loistavasti, joten ajoin sen toisen kerran saavuttaakseni idempotentin tilan. 
+
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/ecce2028-29e1-4bb3-83b2-04bb22106a4e)
+
+Lopuksi ajoin myös komennon ```sudo salt '*' cmd.run motd```. Tämä komento ajaa skriptin. Olin jännän äärellä, toimiiko tervehdys vai ei?
+
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/8ada6ce8-5005-4cbb-a808-03e38b3e2477)
+
+Voi eii :( jokin olikin pielessä. Kävin antamassa orja-koneelle suoritusoikeudet, jonka jälkeen ajoin komennon ```sudo salt '*' cmd.run motd``` uudelleen. 
+
+Vastaus oli tämä:
+
+![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/98f2f029-8f4c-4a90-9c52-db9647a544c5)
+
+Viesti kellonajan ja päivän kera ilmestyi MOTD-osioon. Mutta projektin aikana tätä pyöritellessä älysin, että kellonaika määräytyy sen mukaan, mihin aikaan skripti  on ajettu. Tästä syystä skripti täytyisi siis ajastaa. Lähdin siis kokeilemaan onnistuisiko skirptin ajastaminen niin, että kellonaika ja päivämäärä olisivat mahdollisimman tarkkoja. 
+
+## Skriptin ajastaminen 
+
+jee lisää tekemistä!
 
 ## References
 
