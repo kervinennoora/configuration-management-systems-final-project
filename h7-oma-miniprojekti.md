@@ -100,9 +100,13 @@ Viesti kellonajan ja päivän kera ilmestyi MOTD-osioon. Mutta projektin aikana 
 
 ## Skriptin ajastaminen 
 
-jee lisää tekemistä! Loin tollasen ajastamis skriptin: Let's testataan
+Tätä osaa projektista en osannut tehdä masterilta käsin. Joten siirryin toimimaan orjakoneelle. Loin skriptin *ajastin*, joka ajaa skriptin *motd* joka kuudeskymmenes sekunti eli kerran minuutissa. Ajattelin, että tiheä ajamistahti varmistaisi tarkimman kellonajan. 
+
+*Ajastin* skriptitiedosto näytti tältä: 
 
 ![image](https://github.com/kervinennoora/configuration-management-systems-final-project/assets/165003747/8127aae1-dc96-4d15-95a2-8d958891a16d)
+
+Annoin skriptitiedostolle suoritusoikeudet komennolla ```sudo chmod +x ajastin```, jonka jälkeen ajoin skriptitiedoston komennolla ```. ajastin```. Skrpti kuintenkin ajoi epäilyttävän pitkään joten muutaman minuutin odottelun jälkeen lopetin ajastamisen painamalla CTRL+C. Kirjauduin pois orjakoneelta ja kirjauduin takaisin sisään. Lopputuloksena oli se, että kellonaika oli tervehdyksessä se, jonka aikaan ajoin komennon ```. ajastin```. Kuitenkin viesti ei toimi minuutin tarkkuudella ja täytyy keksiä uusi tapa saada tämä toimimaan.
 
 ## References
 
@@ -117,3 +121,5 @@ Vivek, G. 2017. Run crontab (cron jobs) Evety 10 Minutes. https://www.cyberciti.
 Kervinen, N. 2024. h2 - Soitto kotiin. https://github.com/kervinennoora/configuration-management-systems/blob/main/h2-soitto-kotiin.md
 
 Kervinen, N. 2024. h5 - Tekniikoita. https://github.com/kervinennoora/configuration-management-systems/blob/main/h5-tekniikoita.md
+
+Chadwick, R. 2024. Loops - Bash Scripting Tutorial. https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php
