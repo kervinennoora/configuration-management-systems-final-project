@@ -114,6 +114,8 @@ Karvinen, T. 2024. h7 - oma miniprojekti. https://terokarvinen.com/2024/configur
 
 Karvinen, T. 2024. Infra as Code - Palvelinten hallinta. https://terokarvinen.com/2024/configuration-management-2024-spring/
 
+Karvinen, T. 2023. Salt Vagrant - automatically provision one master and two slaves.  https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file
+
 Vivek, G. 2024. How To Format Date For Display or Use In a Shell Script. https://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/
 
 Vivek, G. 2017. Run crontab (cron jobs) Evety 10 Minutes. https://www.cyberciti.biz/faq/crontab-every-10-min/
