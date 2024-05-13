@@ -132,3 +132,7 @@ Kervinen, N. 2024. h5 - Tekniikoita. https://github.com/kervinennoora/configurat
 Chadwick, R. 2024. Loops - Bash Scripting Tutorial. https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php
 
 amcgregor. 2023. A convinient motd-creation script for Gentoo servers. https://gist.github.com/amcgregor/1522110/e01dbcfcf30d732b2e8a0a752ef09abf9a7e9b27
+
+Unix&Linux. 2018. apt - bash script that automates downloading and installing an app. https://unix.stackexchange.com/questions/466846/bash-script-that-automates-downloading-and-installing-an-app
+
+Serverfault. 2013. Is it possible to but commands in /etc/motd? https://serverfault.com/questions/459229/is-it-possible-to-put-commands-in-etc-motd
